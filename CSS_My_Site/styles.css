@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
+}
+p {
+  line-height: 200%;
+}
+h1 {
+  font-family: 'Sacramento';
+  margin: 0 auto 0 auto;
+  padding-top: 10%;
+  font-size: 5.625rem;
+  font-weight: 2;
+}
+h2 {
+  font-family: 'Sacramento';
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #11999E;
+}
+h3 {
+  font-family: 'Sacramento';
+  color: #11999E;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.profile {
+  width: 30%;
+  margin: auto;
+}
+.profile-pic {
+  width: 15%;
+  height: auto;
+}
+.skills-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.fruit-pic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.top-container {
+  position: relative;
+  overflow: auto;
+}
+.middle-container {
+  margin: 25px 0;
+}
+.bottom-container {
+  background-color: #11999E;
+  padding: 50px 0;
+}
+.sky-color {
+  background-color: #EAF6F6;
+}
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+.pro {
+  text-decoration: underline;
+}
+.top-words {
+  color: #66BFBF;
+}
+.other {
+  color: #11999E;
+}
+.contact-me {
+  background-color: #11cdd4;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 2px 5px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.contact-me:hover {
+  background-color: #30e3cb;
+  text-decoration: none;
+}
+.contact-me:active {
+  position: relative;
+  top: 3px;
+  text-decoration: none;
+}
+hr {
+  border-top: 10px dotted;
+  width: 5%;
+  color: #94938f;
+  margin: 100px auto;
+  border-bottom: none;
+}
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #30e3cb;
+}
+a:visited {
+  color: #30e3cb;
+}
+a:hover {
+  color: white;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
